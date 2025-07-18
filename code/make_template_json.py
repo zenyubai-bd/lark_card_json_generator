@@ -2,6 +2,7 @@ import json
 import pandas as pd
 
 import os
+from pathlib import Path
 import shutil
 
 from get_img_key import *
@@ -42,14 +43,19 @@ def get_json(df):
 
 def main():
     PATH = os.getcwd()
-    
+    # Get the path to the current script's directory
+    script_dir = Path(__file__).resolve().parent.parent
+    print(f"Current script directory: {script_dir}")
+    # Construct a safe path to the CSV file
+    csv_path = script_dir /  "input" / "video_table.csv"
+
     # remove existing img_folder if it exists
     img_folder_path = "img_folder"
     shutil.rmtree(os.path.join(PATH, img_folder_path), ignore_errors=True)  # Clear existing images
     os.mkdir(os.path.join(PATH, img_folder_path))  # Create img_folder
 
     # get cleaned product_infos
-    data = pd.read_csv("video_table.csv")
+    data = pd.read_csv(csv_path)
     cleaned_df = clean_data(data)
     cleaned_df["img_key"] = "" # Initialize img_key column
 
@@ -58,15 +64,19 @@ def main():
         product_link = row["product_link"]
         product_name = row["product_name"]
         filename = os.path.join(PATH, img_folder_path, f"{index}.jpg")
-        img = download_image(product_link, filename)
-        img_key = {"img_key": get_img_key(img)}
+        img_path = download_image(product_link, filename)
+        img_key = {"img_key": get_img_key(img_path)}
         cleaned_df.at[index, "img_key"] = img_key  # Add img_key to
+
+        os.remove(img_path) #delete image file after getting img_key
 
     json_template = get_json(cleaned_df)
     print(json.dumps(json_template, indent=4, ensure_ascii=False))  # For testing purposes
 
+    txt_path = script_dir / "output" / "template.txt"
+
     # export to txt file
-    with open("template.txt", "w", encoding="utf-8") as f:
+    with open(txt_path, "w", encoding="utf-8") as f:
         json.dump(json_template, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":

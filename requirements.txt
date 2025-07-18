@@ -1,0 +1,4 @@
+pandas
+lark_oapi
+beautifulsoup4
+html5lib

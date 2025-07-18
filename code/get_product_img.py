@@ -1,10 +1,12 @@
 import os
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 import requests
 import html5lib
 
 PATH = os.getcwd()
+script_dir = Path(__file__).resolve().parent.parent
 
 def download_image(tts_url, filename):
     """
@@ -14,7 +16,13 @@ def download_image(tts_url, filename):
     soup = BeautifulSoup(r.content, 'html5lib')
 
     table = soup.find_all('img', attrs={"class": "lazy-img"})
-    img_url = table[0]['data-src']
+    try:
+        img_url = table[0]['data-src']
+    except:
+        print("No image found")
+        filename = script_dir / "assets" / "No_Image_Available.jpg"
+        return filename
+
 
     response = requests.get(img_url)
     if response.status_code == 200:
