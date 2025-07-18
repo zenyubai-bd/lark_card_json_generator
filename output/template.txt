@@ -6,7 +6,7 @@
         "product_category": "Automotive & Motorcycle",
         "product_link": "https://shop.tiktok.com/view/product/1731678188215699071",
         "img_key": {
-            "img_key": "img_v3_02oa_81bf66ba-2e68-43e0-85be-678b3167e5hu"
+            "img_key": "img_v3_02oa_ea7b4590-93ed-44ce-93dc-a2b7a535c3hu"
         }
     },
     {
@@ -16,7 +16,7 @@
         "product_category": "Household Appliances",
         "product_link": "https://shop.tiktok.com/view/product/1731489362040620442",
         "img_key": {
-            "img_key": "img_v3_02oa_04dcc798-f427-40c4-83d2-b31f40383ahu"
+            "img_key": "img_v3_02oa_ad9d4c20-d20f-4ab8-8b50-ca930348d5hu"
         }
     },
     {
@@ -26,7 +26,7 @@
         "product_category": "Beauty & Personal Care",
         "product_link": "https://shop.tiktok.com/view/product/1731602961020716035",
         "img_key": {
-            "img_key": "img_v3_02oa_63adc571-8716-46b7-b224-ce2ef4762bhu"
+            "img_key": "img_v3_02oa_acba9549-f58f-4f30-a5d9-034f78b749hu"
         }
     },
     {
@@ -36,7 +36,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731779467475912507",
         "img_key": {
-            "img_key": "img_v3_02oa_14189568-c40b-4b81-bfec-9bb022feb8hu"
+            "img_key": "img_v3_02oa_fb1a5db0-5414-4883-80e5-957469c2b7hu"
         }
     },
     {
@@ -46,7 +46,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731533879161030321",
         "img_key": {
-            "img_key": "img_v3_02oa_acfe3a98-f124-44e6-98e4-75c9f74538hu"
+            "img_key": "img_v3_02oa_1f9d58f5-fe2a-4828-8259-d15d74bb4ahu"
         }
     },
     {
@@ -56,7 +56,7 @@
         "product_category": "Beauty & Personal Care",
         "product_link": "https://shop.tiktok.com/view/product/1731539746337817979",
         "img_key": {
-            "img_key": "img_v3_02oa_4ad72a28-81c9-410e-b173-64d0539a1dhu"
+            "img_key": "img_v3_02oa_e9129034-a1bb-4176-b0dd-caa906013dhu"
         }
     },
     {
@@ -66,7 +66,7 @@
         "product_category": "Automotive & Motorcycle",
         "product_link": "https://shop.tiktok.com/view/product/1731535879964165821",
         "img_key": {
-            "img_key": "img_v3_02oa_de19396a-55cc-45aa-8842-b16d08f60dhu"
+            "img_key": "img_v3_02oa_bbe13869-1501-42a6-a387-3ea1d53119hu"
         }
     },
     {
@@ -76,7 +76,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731596492346393804",
         "img_key": {
-            "img_key": "img_v3_02oa_462d383b-d479-42fa-b225-d2224b85aahu"
+            "img_key": "img_v3_02oa_046b3c48-4819-405d-94b5-1877bb9135hu"
         }
     },
     {
@@ -86,7 +86,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731533494094235208",
         "img_key": {
-            "img_key": "img_v3_02oa_f14d8bda-d0c9-4473-923b-2285f8635bhu"
+            "img_key": "img_v3_02oa_8e809070-0884-408a-b76b-2e9de24bc2hu"
         }
     },
     {
@@ -96,7 +96,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731664111330690646",
         "img_key": {
-            "img_key": "img_v3_02oa_7ae45360-e7b5-45bd-af18-facaf304c2hu"
+            "img_key": "img_v3_02oa_0dd27442-6b3a-4558-b3fb-ed1165c05fhu"
         }
     },
     {
@@ -106,7 +106,7 @@
         "product_category": "Automotive & Motorcycle",
         "product_link": "https://shop.tiktok.com/view/product/1731593310042818504",
         "img_key": {
-            "img_key": "img_v3_02oa_a98f3bfd-bf3b-4774-ba9d-7d003ba549hu"
+            "img_key": "img_v3_02oa_007b6e4c-41bf-496a-848a-f7be054eaahu"
         }
     },
     {
@@ -116,7 +116,7 @@
         "product_category": "Household Appliances",
         "product_link": "https://shop.tiktok.com/view/product/1731603098029163798",
         "img_key": {
-            "img_key": "img_v3_02oa_8814e1e4-26c0-4ff8-8205-37f8503e23hu"
+            "img_key": "img_v3_02oa_b7a791f3-8b21-4985-9853-18fad38bd2hu"
         }
     },
     {
@@ -126,7 +126,7 @@
         "product_category": "Food & Beverages",
         "product_link": "https://shop.tiktok.com/view/product/1731636529880859935",
         "img_key": {
-            "img_key": "img_v3_02oa_0f2b4a9b-4b7a-46b3-bc77-cc4c225eb2hu"
+            "img_key": "img_v3_02oa_065717dc-6dfc-46c5-a1de-2d886e8534hu"
         }
     },
     {
@@ -136,7 +136,7 @@
         "product_category": "Womenswear & Underwear",
         "product_link": "https://shop.tiktok.com/view/product/1731661351403619870",
         "img_key": {
-            "img_key": "img_v3_02oa_c0b527e4-07f3-4064-a02b-89a17214aehu"
+            "img_key": "img_v3_02oa_abd430a7-fda1-4fca-9769-3002d7f9a7hu"
         }
     },
     {
@@ -146,7 +146,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731836407887791436",
         "img_key": {
-            "img_key": "img_v3_02oa_94b28537-6c03-4731-ae42-ed152f705ahu"
+            "img_key": "img_v3_02oa_7af9aa04-2619-4bf3-ae8e-8923954ab0hu"
         }
     },
     {
@@ -156,7 +156,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731757373237987222",
         "img_key": {
-            "img_key": "img_v3_02oa_03d22162-a54d-439c-8c87-131d07d6echu"
+            "img_key": "img_v3_02oa_372a7919-7c5a-497a-ae4f-faf88fdd59hu"
         }
     },
     {
@@ -166,7 +166,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731575282470126766",
         "img_key": {
-            "img_key": "img_v3_02oa_d51485f9-d173-44d5-abc3-8cb3a58604hu"
+            "img_key": "img_v3_02oa_193329e4-9844-49b1-b76b-0b2258f5a1hu"
         }
     },
     {
@@ -176,7 +176,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731488491572397618",
         "img_key": {
-            "img_key": "img_v3_02oa_6b32bc94-ad85-4eba-9e42-e09ee3b99bhu"
+            "img_key": "img_v3_02oa_c6496fb1-2fd8-4793-a053-a022de5536hu"
         }
     },
     {
@@ -186,7 +186,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731488561799333493",
         "img_key": {
-            "img_key": "img_v3_02oa_7c5d9a58-9c32-4a28-bd21-cd9174a006hu"
+            "img_key": "img_v3_02oa_5b8c5dda-61ca-48f3-865f-3228c8f656hu"
         }
     },
     {
@@ -196,7 +196,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731687913494775604",
         "img_key": {
-            "img_key": "img_v3_02oa_94f433b5-27e5-4df3-b26f-bc1ebc3428hu"
+            "img_key": "img_v3_02oa_10160daa-9266-4e65-ac3d-eb6df07acbhu"
         }
     },
     {
@@ -206,7 +206,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731777422059537695",
         "img_key": {
-            "img_key": "img_v3_02oa_d78cc12a-6906-48fd-8ece-fff7513092hu"
+            "img_key": "img_v3_02oa_1681a529-a4e1-4696-98b8-6537319923hu"
         }
     },
     {
@@ -216,7 +216,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731705460798293581",
         "img_key": {
-            "img_key": "img_v3_02oa_04ab0c11-cf6c-425a-8e79-c2166bdbb3hu"
+            "img_key": "img_v3_02oa_9574aa75-a57e-4729-879a-60936494d7hu"
         }
     },
     {
@@ -226,7 +226,7 @@
         "product_category": "Phones & Electronics",
         "product_link": "https://shop.tiktok.com/view/product/1731688059007960884",
         "img_key": {
-            "img_key": "img_v3_02oa_574d642c-d778-4c45-9a12-be386a524ehu"
+            "img_key": "img_v3_02oa_9c220a1c-a087-4921-b537-4be08138dchu"
         }
     },
     {
@@ -236,7 +236,7 @@
         "product_category": "Food & Beverages",
         "product_link": "https://shop.tiktok.com/view/product/1731655119940716271",
         "img_key": {
-            "img_key": "img_v3_02oa_6c2a85fd-7a35-46e4-b43d-092ecaf6a1hu"
+            "img_key": "img_v3_02oa_e544c4ce-77c9-409f-8389-a1d421ca12hu"
         }
     }
 ]

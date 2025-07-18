@@ -21,7 +21,8 @@ def download_image(tts_url, filename):
     except:
         print("No image found")
         filename = script_dir / "assets" / "No_Image_Available.jpg"
-        return filename
+        status = False
+        return str(filename), status
 
 
     response = requests.get(img_url)
@@ -29,7 +30,9 @@ def download_image(tts_url, filename):
         with open(filename, 'wb') as f:
             f.write(response.content)
         print(f"Image saved as {filename}")
+        status = True
     else:
         print(f"Failed to download image: {response.status_code}")
+        status = False
 
-    return filename
+    return filename, status
