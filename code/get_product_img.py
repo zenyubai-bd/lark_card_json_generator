@@ -12,7 +12,11 @@ def download_image(tts_url, filename):
     """
     Download an image from a URL and save it to a file.
     """
-    r = requests.get(tts_url)
+    try:
+        r = requests.get(tts_url)
+    except:
+        print("Failed to fetch the URL")
+        return None, False
     soup = BeautifulSoup(r.content, 'html5lib')
 
     table = soup.find_all('img', attrs={"loading": "eager"})

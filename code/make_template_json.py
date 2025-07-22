@@ -65,10 +65,12 @@ def main():
         product_name = row["product_name"]
         filename = os.path.join(PATH, img_folder_path, f"{index}.jpg")
         img_path, status = download_image(product_link, filename)
-        img_key = {"img_key": get_img_key(img_path)}
-        cleaned_df.at[index, "img_key"] = img_key  # Add img_key to
 
-        if status:
+        if status==False:
+            return
+        else:
+            img_key = {"img_key": get_img_key(img_path)}
+            cleaned_df.at[index, "img_key"] = img_key  # Add img_key to
             os.remove(img_path) #delete image file after getting img_key
 
     json_template = get_json(cleaned_df)
