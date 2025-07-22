@@ -15,9 +15,9 @@ def download_image(tts_url, filename):
     r = requests.get(tts_url)
     soup = BeautifulSoup(r.content, 'html5lib')
 
-    table = soup.find_all('img', attrs={"class": "lazy-img"})
+    table = soup.find_all('img', attrs={"loading": "eager"})
     try:
-        img_url = table[0]['data-src']
+        img_url = table[0]['src']
     except:
         print("No image found")
         filename = script_dir / "assets" / "No_Image_Available.jpg"
