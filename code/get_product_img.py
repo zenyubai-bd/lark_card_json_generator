@@ -14,29 +14,23 @@ def download_image(tts_url, filename):
     """
     try:
         r = requests.get(tts_url)
-    except:
-        print("Failed to fetch the URL")
-        return None, False
-    soup = BeautifulSoup(r.content, 'html5lib')
+        soup = BeautifulSoup(r.content, 'html5lib')
 
-    table = soup.find_all('img', attrs={"loading": "eager"})
-    try:
+        table = soup.find_all('img', attrs={"loading": "eager"})
         img_url = table[0]['src']
+
+        response = requests.get(img_url)
+
+        with open(filename, 'wb') as f:
+            f.write(response.content)
+        print(f"Image saved as {filename}")
+
+        status = True
+
     except:
         print("No image found")
         filename = script_dir / "assets" / "No_Image_Available.jpg"
         status = False
         return str(filename), status
-
-
-    response = requests.get(img_url)
-    if response.status_code == 200:
-        with open(filename, 'wb') as f:
-            f.write(response.content)
-        print(f"Image saved as {filename}")
-        status = True
-    else:
-        print(f"Failed to download image: {response.status_code}")
-        status = False
 
     return filename, status

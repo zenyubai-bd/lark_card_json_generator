@@ -9,9 +9,6 @@ def clean_data(df):
     This function aims to clean the column names to prepare the transformation to json
     """
     df = df[["Product Name", "Video Link", "handle", "Product Category", "Product TTS Link"]]
-    df = df.dropna()
-    df = df.drop_duplicates(subset=["Product Name"])
-    df = df[df["Product TTS Link"].notna()]
     df = df.rename(columns={
         "Product Name":     "product_name",
         "Video Link":       "video_link",
@@ -19,6 +16,9 @@ def clean_data(df):
         "Product Category": "product_category",
         "Product TTS Link": "product_link"
     })
+    df = df.dropna(subset=["product_link"])
+    df = df.drop_duplicates(subset=["product_name"])
+    # df = df[df["product_name"].notna()]
     return df
 
 def dislike_videos(pop_row):

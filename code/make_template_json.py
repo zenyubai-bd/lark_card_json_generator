@@ -67,7 +67,8 @@ def main():
         img_path, status = download_image(product_link, filename)
 
         if status==False:
-            return
+            cleaned_df = cleaned_df.drop(index)  # Drop the row if image download failed
+            continue
         else:
             img_key = {"img_key": get_img_key(img_path)}
             cleaned_df.at[index, "img_key"] = img_key  # Add img_key to
@@ -80,7 +81,8 @@ def main():
 
     # export to txt file
     with open(txt_path, "w", encoding="utf-8") as f:
-        json.dump(json_template, f, indent=4, ensure_ascii=False)
+        json_template = json.dumps(json_template, indent=4, ensure_ascii=False)
+        f.write(str(json_template))
 
 if __name__ == "__main__":
     main()
